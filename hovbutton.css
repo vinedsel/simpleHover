@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(24, 25, 26);
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+button {
+    background: none;
+    border: 2px solid;
+    color: rgb(200, 152, 224);
+    padding: 1em 2em;
+    font-size: 1em;
+}
+
+button:hover {
+    border-color: deeppink;
+    color: deepskyblue;
+    box-shadow: 0 0.5em 0.5em -0.4em deeppink;
+    transform: translateY(-0.25em);
+    transition: all ease-in 0.25s;
+    cursor: pointer;
+}
