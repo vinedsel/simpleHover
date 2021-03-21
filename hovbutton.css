@@ -20,6 +20,13 @@ button:hover {
     color: deepskyblue;
     box-shadow: 0 0.5em 0.5em -0.4em deeppink;
     transform: translateY(-0.25em);
-    transition: all ease-in 0.25s;
+    transition: ease-in 0.25s;
     cursor: pointer;
+}
+
+button {
+    transition: ease-in 0.50s;
+    transform: translateY(0.25em);
+    border-color: deepskyblue;
+    transition-delay: .50s;
 }
